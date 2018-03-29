@@ -2,16 +2,16 @@
 
 /**
  * @ngdoc function
- * @name whofundsdcApp.controller:MainCtrl
+ * @name app.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the whofundsdcApp
+ * Controller of the app
  */
-angular.module('whofundsdcApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+angular.module('app')
+  .controller('MainCtrl', function ($scope, mainData) {
+    $scope.main = {
+        races: mainData[0].data,
+        candidates: mainData[1].data,
+        campaigns: mainData[2].data
+    };
   });

@@ -1,0 +1,19 @@
+<h2>List of Races</h2>
+
+<div class="races-list">
+  <div class="race" ng-repeat="race in main.races | filter:{electionYear:2018}">
+    <h3>{{race.raceId}} - {{race.raceTypeDetail}} - {{race.electionYear}}</h3>
+    <ul class="race-candidates-list">
+      <li ng-repeat="campaign in campaigns | filter:{raceId:race.raceId}">
+        <div>{{campaign.candidateName}}</div>
+        <campaign-detail>
+          <div>Total Contributions: <span ng-if="contribs.length == 1000">&gt;</span>{{contribs.length}}</div>
+          <!-- <ul>
+            <li ng-repeat="contrib in contribs">{{contrib.attributes.}}
+          </ul> -->
+        </campaign-detail>
+        <!-- TODO: convert to grid cards and add "campaign-detail" directive -->
+      </li>
+    </ul>
+  </div>
+</div>

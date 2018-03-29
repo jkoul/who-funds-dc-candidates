@@ -2,18 +2,25 @@
 
 /**
  * @ngdoc overview
- * @name whofundsdcApp
+ * @name app
  * @description
- * # whofundsdcApp
+ * # app
  *
  * Main module of the application.
  */
-angular
-  .module('whofundsdcApp', [
+angular.module('app', [
     'ngAnimate',
     'ngAria',
     'ngCookies',
     'ngMessages',
     'ngResource',
-    'ngSanitize'
-  ]);
+    'ngSanitize',
+    'ngTouch',
+    'ui.router'
+  ])
+
+  .constant('assetPath', '.')
+
+  .config(['$locationProvider', function($locationProvider) {
+    $locationProvider.html5Mode(true);
+  }]);
