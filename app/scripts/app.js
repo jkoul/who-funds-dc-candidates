@@ -15,7 +15,6 @@ angular.module('app', [
     'ngMessages',
     'ngResource',
     'ngSanitize',
-    'ngTouch',
     'ui.router'
   ])
 
