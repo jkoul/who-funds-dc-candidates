@@ -4,9 +4,13 @@
   <div id="header" class="header" ng-include="'views/regions/header.html'"></div>
 
   <!-- DEFER TO STATE-BASED VIEWS -->
-  <div id="main" class="main" ui-view></div>
+  <md-content class="md-padding">
+    <div id="main" class="main" ui-view></div>
+  </md-content>
 
   <!-- FOOTER -->
-  <div id="footer" class="footer" ng-include="'views/regions/footer.html'"></div>
-  
+  <md-content class="md-padding">
+    <div id="footer" class="footer" ng-include="'views/regions/footer.html'"></div>
+  </md-content>
+
 </div>

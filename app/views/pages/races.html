@@ -1,19 +1,18 @@
-<h2>List of Races</h2>
-
-<div class="races-list">
-  <div class="race" ng-repeat="race in main.races | filter:{electionYear:2018}">
-    <h3>{{race.raceId}} - {{race.raceTypeDetail}} - {{race.electionYear}}</h3>
-    <ul class="race-candidates-list">
-      <li ng-repeat="campaign in campaigns | filter:{raceId:race.raceId}">
-        <div>{{campaign.candidateName}}</div>
-        <campaign-detail>
-          <div>Total Contributions: <span ng-if="contribs.length == 1000">&gt;</span>{{contribs.length}}</div>
-          <!-- <ul>
-            <li ng-repeat="contrib in contribs">{{contrib.attributes.}}
-          </ul> -->
-        </campaign-detail>
-        <!-- TODO: convert to grid cards and add "campaign-detail" directive -->
-      </li>
-    </ul>
+<div class="page-container">
+  <div class="page-intro">
+    <h1 class="page-title">List of Races</h1>
+    <p>Note: filters will go here</p>
+  </div>
+  <div class="races-list">
+    <div class="race" ng-repeat="race in main.races | filter:{electionYear:2018}">
+      <h2 class="race-headline">{{race.raceId}} - {{race.raceTypeDetail}} - {{race.electionYear}}</h2>
+      <!-- set up grid for campaign cards -->
+      <md-content class="race-candidates-list" layout-xs="column" layout="row" layout-wrap>
+          <!-- <div ng-repeat="campaign in campaigns | filter:{raceId:race.raceId}"> -->
+            <!-- <div>{{campaign.candidateName}}</div> -->
+        <campaign-card flex-xs flex-gt-xs="50" flex-gt-sm="33" flex-gt-md="25" ng-repeat="campaign in campaigns | filter:{raceId:race.raceId}" />
+          <!-- </div> -->
+      </md-content>
+    </div>
   </div>
 </div>

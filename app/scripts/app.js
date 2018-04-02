@@ -15,10 +15,16 @@ angular.module('app', [
     'ngMessages',
     'ngResource',
     'ngSanitize',
-    'ui.router'
+    'ui.router',
+    'ngMaterial'
   ])
 
   .constant('assetPath', '.')
+
+  // disable Material theming for now
+  .config(function($mdThemingProvider) {
+    $mdThemingProvider.disableTheming();
+  })
 
   .config(['$locationProvider', function($locationProvider) {
     $locationProvider.html5Mode(true);

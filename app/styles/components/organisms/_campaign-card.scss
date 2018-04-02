@@ -1,0 +1,10 @@
+.campaign-card {
+  border: 1px solid $brick;
+  .card-header {
+    background: $light-gray;
+    .md-title {
+      color: $primary-color;
+    }
+    // color: $white;
+  }
+}

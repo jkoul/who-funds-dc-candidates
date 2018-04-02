@@ -1,17 +1,14 @@
-<div class="navbar navbar-default" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
+<md-content class="md-padding">
+  <md-nav-bar nav-bar-aria-label="navigation links" role="navigation">
 
-      <a class="navbar-brand" href="/">Who Funds DC Candidates?</a>
-    </div>
+      <!-- <div class="navbar-header"> -->
 
-    <div class="collapse">
+        <!-- <a class="navbar-brand" href="/">Who Funds DC Candidates?</a> -->
+      <!-- </div> -->
 
-      <ul class="nav navbar-nav">
-        <li class="active"><a ui-sref="main.home">Home</a></li>
-        <li><a ui-sref="main.races.index">Races</a></li>
-        <li><a ui-sref="main.campaigns.index">Campaigns</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
+    <md-nav-item md-nav-sref="main.home" name="main.home" aria-label="home">Home</md-nav-item>
+    <md-nav-item md-nav-sref="main.races.index" name="main.races.index" aria-label="races">Races</md-nav-item>
+    <md-nav-item md-nav-sref="main.campaigns.index" name="main.campaigns.index" aria-label="campaigns">Campaigns</md-nav-item>
+
+  </md-nav-bar>
+</md-content>

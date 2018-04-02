@@ -1,0 +1,13 @@
+.md-nav-bar {
+  border-color: $light-gray;
+  padding: 1rem 0;
+
+  .md-nav-item .md-active {
+    color: $primary-color;
+  }
+
+  md-nav-ink-bar {
+    background-color: lighten($primary-color, 5%);
+    bottom: 1rem;
+  }
+}

@@ -5,6 +5,7 @@
     "raceTypeDetail": "Mayor",
     "electionYear": 2002,
     "officeTypeId": 1,
+    "contributionLimit": 2000,
     "winners": [
       18
     ]
@@ -15,6 +16,7 @@
     "raceTypeDetail": "Council - Chair",
     "electionYear": 2002,
     "officeTypeId": 3,
+    "contributionLimit": 1500,
     "winners": [
       205
     ]
@@ -25,6 +27,7 @@
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2002,
     "officeTypeId": 3,
+    "contributionLimit": 1000,
     "winners": [
       79,
       271
@@ -36,6 +39,7 @@
     "raceTypeDetail": "Council - Ward 1",
     "electionYear": 2002,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       154
     ]
@@ -46,6 +50,7 @@
     "raceTypeDetail": "Council - Ward 3",
     "electionYear": 2002,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       177
     ]
@@ -56,6 +61,7 @@
     "raceTypeDetail": "Council - Ward 5",
     "electionYear": 2002,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       345
     ]
@@ -66,6 +72,7 @@
     "raceTypeDetail": "Council - Ward 6",
     "electionYear": 2002,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       309
     ]
@@ -126,6 +133,7 @@
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2004,
     "officeTypeId": 3,
+    "contributionLimit": 1000,
     "winners": [
       45,
       191
@@ -137,6 +145,7 @@
     "raceTypeDetail": "Council - Ward 2",
     "electionYear": 2004,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       135
     ]
@@ -147,6 +156,7 @@
     "raceTypeDetail": "Council - Ward 4",
     "electionYear": 2004,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       6
     ]
@@ -157,6 +167,7 @@
     "raceTypeDetail": "Council - Ward 7",
     "electionYear": 2004,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       344
     ]
@@ -167,6 +178,7 @@
     "raceTypeDetail": "Council - Ward 8",
     "electionYear": 2004,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       223
     ]
@@ -215,6 +227,7 @@
     "raceTypeDetail": "Mayor",
     "electionYear": 2006,
     "officeTypeId": 1,
+    "contributionLimit": 2000,
     "winners": [
       6
     ]
@@ -225,6 +238,7 @@
     "raceTypeDetail": "Council - Chair",
     "electionYear": 2006,
     "officeTypeId": 3,
+    "contributionLimit": 1500,
     "winners": [
       344
     ]
@@ -235,6 +249,7 @@
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2006,
     "officeTypeId": 3,
+    "contributionLimit": 1000,
     "winners": [
       79,
       271
@@ -246,6 +261,7 @@
     "raceTypeDetail": "Council - Ward 1",
     "electionYear": 2006,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       154
     ]
@@ -256,6 +272,7 @@
     "raceTypeDetail": "Council - Ward 3",
     "electionYear": 2006,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       234
     ]
@@ -266,6 +283,7 @@
     "raceTypeDetail": "Council - Ward 5",
     "electionYear": 2006,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       130
     ]
@@ -276,6 +294,7 @@
     "raceTypeDetail": "Council - Ward 6",
     "electionYear": 2006,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       331
     ]
@@ -336,6 +355,7 @@
     "raceTypeDetail": "Council - Ward 4 (Special)",
     "electionYear": 2007,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       253
     ]
@@ -346,6 +366,7 @@
     "raceTypeDetail": "Council - Ward 7 (Special)",
     "electionYear": 2007,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       357
     ]
@@ -366,6 +387,7 @@
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2008,
     "officeTypeId": 3,
+    "contributionLimit": 1000,
     "winners": [
       191,
       242
@@ -377,6 +399,7 @@
     "raceTypeDetail": "Council - Ward 2",
     "electionYear": 2008,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       135
     ]
@@ -387,6 +410,7 @@
     "raceTypeDetail": "Council - Ward 4",
     "electionYear": 2008,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       253
     ]
@@ -397,6 +421,7 @@
     "raceTypeDetail": "Council - Ward 7",
     "electionYear": 2008,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       357
     ]
@@ -407,6 +432,7 @@
     "raceTypeDetail": "Council - Ward 8",
     "electionYear": 2008,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       223
     ]
@@ -427,6 +453,7 @@
     "raceTypeDetail": "School Board - At-Large",
     "electionYear": 2008,
     "officeTypeId": 5,
+    "contributionLimit": 500,
     "winners": [
       321
     ]
@@ -437,6 +464,7 @@
     "raceTypeDetail": "School Board - Ward 1",
     "electionYear": 2008,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       94
     ]
@@ -447,6 +475,7 @@
     "raceTypeDetail": "School Board - Ward 2",
     "electionYear": 2008,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       236
     ]
@@ -457,6 +486,7 @@
     "raceTypeDetail": "School Board - Ward 3",
     "electionYear": 2008,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       196
     ]
@@ -467,6 +497,7 @@
     "raceTypeDetail": "School Board - Ward 4",
     "electionYear": 2008,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       306
     ]
@@ -477,6 +508,7 @@
     "raceTypeDetail": "School Board - Ward 5",
     "electionYear": 2008,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       225
     ]
@@ -487,6 +519,7 @@
     "raceTypeDetail": "School Board - Ward 6",
     "electionYear": 2008,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       209
     ]
@@ -497,6 +530,7 @@
     "raceTypeDetail": "School Board - Ward 7",
     "electionYear": 2008,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       93
     ]
@@ -507,6 +541,7 @@
     "raceTypeDetail": "School Board - Ward 8",
     "electionYear": 2008,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       353
     ]
@@ -535,6 +570,7 @@
     "raceTypeDetail": "Council - Chair",
     "electionYear": 2010,
     "officeTypeId": 3,
+    "contributionLimit": 1500,
     "winners": [
       191
     ]
@@ -545,6 +581,7 @@
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2010,
     "officeTypeId": 3,
+    "contributionLimit": 1000,
     "winners": [
       79,
       271
@@ -556,6 +593,7 @@
     "raceTypeDetail": "Council - Ward 1",
     "electionYear": 2010,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       154
     ]
@@ -566,6 +604,7 @@
     "raceTypeDetail": "Council - Ward 3",
     "electionYear": 2010,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       234
     ]
@@ -576,6 +615,7 @@
     "raceTypeDetail": "Council - Ward 5",
     "electionYear": 2010,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       130
     ]
@@ -586,6 +626,7 @@
     "raceTypeDetail": "Council - Ward 6",
     "electionYear": 2010,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       331
     ]
@@ -606,6 +647,7 @@
     "raceTypeDetail": "School Board - Ward 1",
     "electionYear": 2010,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       261
     ]
@@ -616,6 +658,7 @@
     "raceTypeDetail": "School Board - Ward 3",
     "electionYear": 2010,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       196
     ]
@@ -626,6 +669,7 @@
     "raceTypeDetail": "School Board - Ward 5",
     "electionYear": 2010,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       225
     ]
@@ -636,6 +680,7 @@
     "raceTypeDetail": "School Board - Ward 6",
     "electionYear": 2010,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       252
     ]
@@ -646,6 +691,7 @@
     "raceTypeDetail": "Council - At-Large (Special)",
     "electionYear": 2011,
     "officeTypeId": 3,
+    "contributionLimit": 1000,
     "winners": [
       345
     ]
@@ -656,6 +702,7 @@
     "raceTypeDetail": "School Board - Ward 4 (Special)",
     "electionYear": 2011,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       68
     ]
@@ -666,6 +713,7 @@
     "raceTypeDetail": "School Board - Ward 8 (Special)",
     "electionYear": 2011,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       336
     ]
@@ -676,6 +724,7 @@
     "raceTypeDetail": "Council - Ward 5 (Special)",
     "electionYear": 2012,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       183
     ]
@@ -686,6 +735,7 @@
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2012,
     "officeTypeId": 3,
+    "contributionLimit": 1000,
     "winners": [
       82,
       345
@@ -697,6 +747,7 @@
     "raceTypeDetail": "Council - Ward 2",
     "electionYear": 2012,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       135
     ]
@@ -707,6 +758,7 @@
     "raceTypeDetail": "Council - Ward 4",
     "electionYear": 2012,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       253
     ]
@@ -717,6 +769,7 @@
     "raceTypeDetail": "Council - Ward 7",
     "electionYear": 2012,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       357
     ]
@@ -727,6 +780,7 @@
     "raceTypeDetail": "Council - Ward 8",
     "electionYear": 2012,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       223
     ]
@@ -737,6 +791,7 @@
     "raceTypeDetail": "Council - Chair (Special)",
     "electionYear": 2012,
     "officeTypeId": 3,
+    "contributionLimit": 1500,
     "winners": [
       271
     ]
@@ -767,6 +822,7 @@
     "raceTypeDetail": "School Board - At-Large",
     "electionYear": 2012,
     "officeTypeId": 5,
+    "contributionLimit": 500,
     "winners": [
       236
     ]
@@ -777,6 +833,7 @@
     "raceTypeDetail": "School Board - Ward 2",
     "electionYear": 2012,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       136
     ]
@@ -787,6 +844,7 @@
     "raceTypeDetail": "School Board - Ward 4",
     "electionYear": 2012,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       68
     ]
@@ -797,6 +855,7 @@
     "raceTypeDetail": "School Board - Ward 7",
     "electionYear": 2012,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       174
     ]
@@ -807,6 +866,7 @@
     "raceTypeDetail": "School Board - Ward 8",
     "electionYear": 2012,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       336
     ]
@@ -825,6 +885,7 @@
     "raceTypeDetail": "Council - At-Large (Special)",
     "electionYear": 2013,
     "officeTypeId": 3,
+    "contributionLimit": 1000,
     "winners": [
       14
     ]
@@ -835,6 +896,7 @@
     "raceTypeDetail": "Mayor",
     "electionYear": 2014,
     "officeTypeId": 1,
+    "contributionLimit": 2000,
     "winners": [
       253
     ]
@@ -845,6 +907,7 @@
     "raceTypeDetail": "Attorney General",
     "electionYear": 2014,
     "officeTypeId": 2,
+    "contributionLimit": 1500,
     "winners": [
       175
     ]
@@ -855,6 +918,7 @@
     "raceTypeDetail": "Council - Chair",
     "electionYear": 2014,
     "officeTypeId": 3,
+    "contributionLimit": 1500,
     "winners": [
       271
     ]
@@ -865,6 +929,7 @@
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2014,
     "officeTypeId": 3,
+    "contributionLimit": 1000,
     "winners": [
       14,
       108
@@ -876,6 +941,7 @@
     "raceTypeDetail": "Council - Ward 1",
     "electionYear": 2014,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       37
     ]
@@ -886,6 +952,7 @@
     "raceTypeDetail": "Council - Ward 3",
     "electionYear": 2014,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       234
     ]
@@ -896,6 +963,7 @@
     "raceTypeDetail": "Council - Ward 5",
     "electionYear": 2014,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       183
     ]
@@ -906,6 +974,7 @@
     "raceTypeDetail": "Council - Ward 6",
     "electionYear": 2014,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       55
     ]
@@ -946,6 +1015,7 @@
     "raceTypeDetail": "School Board - Ward 1",
     "electionYear": 2014,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       197
     ]
@@ -956,6 +1026,7 @@
     "raceTypeDetail": "School Board - Ward 3",
     "electionYear": 2014,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       298
     ]
@@ -966,6 +1037,7 @@
     "raceTypeDetail": "School Board - Ward 5",
     "electionYear": 2014,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       225
     ]
@@ -976,6 +1048,7 @@
     "raceTypeDetail": "School Board - Ward 6",
     "electionYear": 2014,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       158
     ]
@@ -994,6 +1067,7 @@
     "raceTypeDetail": "Council - Ward 4 (Special)",
     "electionYear": 2015,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       35
     ]
@@ -1004,6 +1078,7 @@
     "raceTypeDetail": "Council - Ward 8 (Special)",
     "electionYear": 2015,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       194
     ]
@@ -1014,6 +1089,7 @@
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2016,
     "officeTypeId": 3,
+    "contributionLimit": 1000,
     "winners": [
       82,
       290
@@ -1025,6 +1101,7 @@
     "raceTypeDetail": "Council - Ward 2",
     "electionYear": 2016,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       135
     ]
@@ -1035,6 +1112,7 @@
     "raceTypeDetail": "Council - Ward 4",
     "electionYear": 2016,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       35
     ]
@@ -1045,6 +1123,7 @@
     "raceTypeDetail": "Council - Ward 7",
     "electionYear": 2016,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       344
     ]
@@ -1055,6 +1134,7 @@
     "raceTypeDetail": "Council - Ward 8",
     "electionYear": 2016,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": [
       336
     ]
@@ -1075,6 +1155,7 @@
     "raceTypeDetail": "School Board - At-Large",
     "electionYear": 2016,
     "officeTypeId": 5,
+    "contributionLimit": 500,
     "winners": [
       25
     ]
@@ -1085,6 +1166,7 @@
     "raceTypeDetail": "School Board - Ward 2",
     "electionYear": 2016,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       136
     ]
@@ -1095,6 +1177,7 @@
     "raceTypeDetail": "School Board - Ward 4",
     "electionYear": 2016,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       192
     ]
@@ -1105,6 +1188,7 @@
     "raceTypeDetail": "School Board - Ward 7",
     "electionYear": 2016,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       174
     ]
@@ -1115,6 +1199,7 @@
     "raceTypeDetail": "School Board - Ward 8",
     "electionYear": 2016,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": [
       228
     ]
@@ -1133,6 +1218,7 @@
     "raceTypeDetail": "Mayor",
     "electionYear": 2018,
     "officeTypeId": 1,
+    "contributionLimit": 2000,
     "winners": []
   },
   {
@@ -1141,6 +1227,7 @@
     "raceTypeDetail": "Attorney General",
     "electionYear": 2018,
     "officeTypeId": 2,
+    "contributionLimit": 1500,
     "winners": []
   },
   {
@@ -1149,6 +1236,7 @@
     "raceTypeDetail": "Council - Chair",
     "electionYear": 2018,
     "officeTypeId": 3,
+    "contributionLimit": 1500,
     "winners": []
   },
   {
@@ -1157,6 +1245,7 @@
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2018,
     "officeTypeId": 3,
+    "contributionLimit": 1000,
     "winners": []
   },
   {
@@ -1165,6 +1254,7 @@
     "raceTypeDetail": "Council - Ward 1",
     "electionYear": 2018,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": []
   },
   {
@@ -1173,6 +1263,7 @@
     "raceTypeDetail": "Council - Ward 3",
     "electionYear": 2018,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": []
   },
   {
@@ -1181,6 +1272,7 @@
     "raceTypeDetail": "Council - Ward 5",
     "electionYear": 2018,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": []
   },
   {
@@ -1189,6 +1281,7 @@
     "raceTypeDetail": "Council - Ward 6",
     "electionYear": 2018,
     "officeTypeId": 3,
+    "contributionLimit": 500,
     "winners": []
   },
   {
@@ -1213,6 +1306,7 @@
     "raceTypeDetail": "School Board - Ward 1",
     "electionYear": 2018,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": []
   },
   {
@@ -1221,6 +1315,7 @@
     "raceTypeDetail": "School Board - Ward 3",
     "electionYear": 2018,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": []
   },
   {
@@ -1229,6 +1324,7 @@
     "raceTypeDetail": "School Board - Ward 5",
     "electionYear": 2018,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": []
   },
   {
@@ -1237,6 +1333,7 @@
     "raceTypeDetail": "School Board - Ward 6",
     "electionYear": 2018,
     "officeTypeId": 5,
+    "contributionLimit": 200,
     "winners": []
   },
   {

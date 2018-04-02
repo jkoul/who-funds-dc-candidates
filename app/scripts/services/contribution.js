@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('app')
-  .factory('Contribution', function($http) {
+  .factory('Contribution', function($http, $q, $filter) {
     var baseUrl = 'https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Public_Service_WebMercator/MapServer/34/query';
 
     var stringifyParams = function(paramsObj) {
@@ -53,14 +53,34 @@ angular.module('app')
         // };
 
         // var queryStandard = function(){
-          return $http.get(baseUrl + '?where=' + stringifyParams(params) + '&outFields=*&f=json');
-          // .then(function(res){
-          //   console.log(res.data.features);
-          //   return res.data.features;
-          // }, function(err){
-          //   return $q.reject(err);
-          // });
-        // };
+          return $http.get(baseUrl + '?where=' + stringifyParams(params) + '&outFields=*&f=json')
+          .then(function(res){
+            var results=[];
+            angular.forEach(res.data.features, function(contrib){
+              var contribData = {
+                address: contrib.attributes.ADDRESS,
+                addressId: contrib.attributes.ADDRESS_ID,
+                amount: contrib.attributes.AMOUNT,
+                candidateName: contrib.attributes.CANDIDATENAME,
+                committeeName: contrib.attributes.COMMITTEENAME,
+                contributionType: contrib.attributes.CONTRIBUTIONTYPE,
+                contributorName: contrib.attributes.CONTRIBUTORNAME,
+                contributorType: contrib.attributes.CONTRIBUTORTYPE,
+                dateReceived: $filter('date')(contrib.attributes.DATEOFRECEIPT, 'MM/dd/yyyy'),
+                electionYear: contrib.attributes.ELECTIONYEAR,
+                employer: contrib.attributes.EMPLOYER,
+                employerAddress: contrib.attributes.EMPLOYERADDRESS,
+                normalizedAddress: contrib.attributes.FULLADDRESS,
+                lat: contrib.attributes.LATITUDE,
+                long: contrib.attributes.LONGITUDE,
+                objectId: contrib.attributes.OBJECTID
+              };
+              results.push(contribData);
+            });
+            return results;
+          }, function(err){
+            return $q.reject(err);
+          });
 
         // var success = function(res, queryIds) {
         //   console.log(res.data.features);
