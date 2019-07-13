@@ -2,9 +2,32 @@
   <div class="page-intro">
     <h1 class="page-title">List of Races</h1>
     <p>Note: filters will go here</p>
+    <div class="race-filters">
+      <h2>Filters:</h2>
+      <md-input-container md-no-float>
+        <label>Year</label>
+        <md-select ng-model="activeYear">
+          <md-option ng-value="year" ng-repeat="year in electionYears">{{year}}</md-option>
+        </md-select>
+      </md-input-container>
+      <div class="races-list-toggle">
+        <md-button class="md-raised" ng-click="showRaces = !showRaces">Show Races</md-button>
+        <div class="races-list-container" ng-if="showRaces">
+          <h3>Races in {{activeYear}}</h3>
+          <div class="races-active-list">
+            <md-chips ng-model="activeRaces" readonly md-removable>
+              <md-chip-template>{{$chip.raceTypeDetail}}</md-chip-template>
+            </md-chips>
+          </div>
+        </div>
+      </div>
+      <h2>Races</h2>
+
+      
+    </div>
   </div>
   <div class="races-list">
-    <div class="race" ng-repeat="race in main.races | filter:{electionYear:2018}">
+    <div class="race" ng-repeat="race in activeRaces">
       <h2 class="race-headline">{{race.raceId}} - {{race.raceTypeDetail}} - {{race.electionYear}}</h2>
       <!-- set up grid for campaign cards -->
       <md-content class="race-candidates-list" layout-xs="column" layout="row" layout-wrap>

@@ -9,14 +9,14 @@
  * Main module of the application.
  */
 angular.module('app', [
+    'ngMaterial',
     'ngAnimate',
     'ngAria',
     'ngCookies',
     'ngMessages',
     'ngResource',
     'ngSanitize',
-    'ui.router',
-    'ngMaterial'
+    'ui.router'
   ])
 
   .constant('assetPath', '.')
