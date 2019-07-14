@@ -1,33 +1,38 @@
 <div class="page-container">
   <div class="page-intro">
-    <h1 class="page-title">List of Races</h1>
-    <p>Note: filters will go here</p>
+    <h1 class="page-title">Campaign Overviews by Race</h1>
     <div class="race-filters">
       <h2>Filters:</h2>
-      <md-input-container md-no-float>
+      <md-input-container>
         <label>Year</label>
-        <md-select ng-model="activeYear">
-          <md-option ng-value="year" ng-repeat="year in electionYears">{{year}}</md-option>
+        <md-select ng-model="racesCtrl.activeYear">
+          <md-option ng-value="year" ng-repeat="year in main.electionYears">{{year}}</md-option>
         </md-select>
       </md-input-container>
-      <div class="races-list-toggle">
-        <md-button class="md-raised" ng-click="showRaces = !showRaces">Show Races</md-button>
+      <md-input-container>
+        <label>Select Races</label>
+        <md-select ng-model="racesCtrl.filterRaces" ng-model-options="{trackBy: '$value.raceId'}" md-selected-text="racesCtrl.getSelectedText()" multiple>
+          <md-option ng-value="race" ng-repeat="race in racesCtrl.activeRaces">{{race.raceTypeDetail}}</md-option>
+        </md-select>
+      </md-input-container>
+      <!--<div class="races-list-toggle" active-races>
+        <md-button class="md-accent md-raised" ng-click="showRaces = !showRaces">Show Races</md-button>
         <div class="races-list-container" ng-if="showRaces">
-          <h3>Races in {{activeYear}}</h3>
+          <h3>Races in {{racesCtrl.activeYear}}</h3>
           <div class="races-active-list">
-            <md-chips ng-model="activeRaces" readonly md-removable>
+            <md-chips ng-model="racesCtrl.filterRaces" readonly>
               <md-chip-template>{{$chip.raceTypeDetail}}</md-chip-template>
-            </md-chips>
+            </md-chips> 
           </div>
         </div>
-      </div>
+      </div> -->  
       <h2>Races</h2>
 
       
     </div>
   </div>
-  <div class="races-list">
-    <div class="race" ng-repeat="race in activeRaces">
+  <div class="races-list" active-races>
+    <div class="race" ng-repeat="race in racesCtrl.filterRaces">
       <h2 class="race-headline">{{race.raceId}} - {{race.raceTypeDetail}} - {{race.electionYear}}</h2>
       <!-- set up grid for campaign cards -->
       <md-content class="race-candidates-list" layout-xs="column" layout="row" layout-wrap>

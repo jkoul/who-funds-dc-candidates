@@ -113,7 +113,10 @@ angular.module('app')
         return $http.get(baseUrl + '?returnGeometry=false&returnIdsOnly=true&f=json&where=' + stringifyParams(params))
         .then(function(response){
           var objectIds = response.data.objectIds;
-          if(objectIds.length <= maxResults) {
+          if(!objectIds) {
+            return;
+          }
+          else if(objectIds && objectIds.length <= maxResults) {
             // console.log(objectIds);
             return queryStandard(params);
           } else {
