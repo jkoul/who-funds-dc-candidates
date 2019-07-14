@@ -26,14 +26,12 @@
           </div>
         </div>
       </div> -->  
-      <h2>Races</h2>
-
-      
     </div>
   </div>
   <div class="races-list" active-races>
+    <h2>Races in {{racesCtrl.activeYear}}</h2>
     <div class="race" ng-repeat="race in racesCtrl.filterRaces">
-      <h2 class="race-headline">{{race.raceId}} - {{race.raceTypeDetail}} - {{race.electionYear}}</h2>
+      <h3 class="race-headline">{{race.raceId}} - {{race.raceTypeDetail}} - {{race.electionYear}}</h2>
       <!-- set up grid for campaign cards -->
       <md-content class="race-candidates-list" layout-xs="column" layout="row" layout-wrap>
           <!-- <div ng-repeat="campaign in campaigns | filter:{raceId:race.raceId}"> -->
