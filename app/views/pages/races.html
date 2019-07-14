@@ -30,7 +30,7 @@
   </div>
   <div class="races-list" active-races>
     <h2>Races in {{racesCtrl.activeYear}}</h2>
-    <div class="race" ng-repeat="race in racesCtrl.filterRaces">
+    <div class="race" ng-repeat="race in racesCtrl.filterRaces|orderBy:'raceId'">
       <h3 class="race-headline">{{race.raceId}} - {{race.raceTypeDetail}} - {{race.electionYear}}</h2>
       <!-- set up grid for campaign cards -->
       <md-content class="race-candidates-list" layout-xs="column" layout="row" layout-wrap>

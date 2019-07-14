@@ -33,8 +33,8 @@ angular.module('app')
       
       scope.$watch('racesCtrl.activeYear', function(year) {
         resetActiveRaces(year);
-        // scope.activeRaces = getActiveRaces(year);
       });
+
     }
   };
 });
