@@ -35,7 +35,7 @@ angular.module('app')
           var contribsCount = contribs.length;
 
           var dcContribs = $filter('filter')(scope.contribs, function(c){
-            return c.addressId;
+            return c.addressId || c.ward;
           });
 
           var smallContribs = $filter('filter')(scope.contribs, function(c){

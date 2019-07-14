@@ -64,7 +64,7 @@ angular.module('app')
           var count = 0;
           var stepMax = 200;
           var queries = [];
-          while(count + stepMax < queryIds.length) {
+          while(count < queryIds.length) {
             var idsString = queryIds.slice(count, count+stepMax).join(',');
             queries.push($http.get(baseUrl + '?objectIds=' + idsString + '&outFields=*&f=json'));
             count += stepMax;
@@ -103,7 +103,8 @@ angular.module('app')
               normalizedAddress: contrib.attributes.FULLADDRESS,
               lat: contrib.attributes.LATITUDE,
               long: contrib.attributes.LONGITUDE,
-              objectId: contrib.attributes.OBJECTID
+              objectId: contrib.attributes.OBJECTID,
+              ward: contrib.attributes.WARD
             };
             results.push(contribData);
           });
