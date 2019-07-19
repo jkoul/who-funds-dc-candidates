@@ -21,7 +21,8 @@ angular.module('app')
         if(!$scope.racesCtrl.filterRaces) {
           return "Loading races...";
         }
-        return (angular.equals($scope.racesCtrl.filterRaces, $scope.racesCtrl.activeRaces) ? "Showing all races" : "Showing " + $scope.racesCtrl.filterRaces.length + " of " + $scope.racesCtrl.activeRaces.length + " races");
+        
+        return (angular.equals($filter('orderBy')($scope.racesCtrl.filterRaces, 'raceId'), $scope.racesCtrl.activeRaces) ? "Showing all races" : "Showing " + $scope.racesCtrl.filterRaces.length + " of " + $scope.racesCtrl.activeRaces.length + " races");
       }
     };
       
