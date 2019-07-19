@@ -13,23 +13,27 @@
   <md-card-content>
     <div campaign-detail>
       <div class="campaign-summary-section">
-        <div>Total Contributions: <span ng-if="contribs.length == 1000">&gt;</span>{{summaryData.contribsCount}}</div>
-        <!-- <div>Total from DC: {{summaryData.dcContribs}}<span ng-if="contribs.length == 1000"> (of those 1000)</span></div> -->
-        <div>Contributions from DC: {{((summaryData.dcContribs / summaryData.contribsCount)*100).toFixed(2)}}%</div>
+        <div>Total Contributions: {{summaryData.contribs.length}}</div>
+        <div>Total from DC: {{(summaryData.contribs | dcContributions).length}} ({{(((summaryData.contribs | dcContributions).length / summaryData.contribs.length)*100).toFixed(1)}}% of total)</div>
+        <div>Unique Contributors: {{summaryData.contributors.length}}</div>
+        <div>Unique Contributors from DC: {{(summaryData.contributors | filter:{dcResident:true}).length}} ({{(((summaryData.contributors | filter:{dcResident:true}).length / summaryData.contributors.length)*100).toFixed(1)}}% of total)</div>
       </div>
       <div class="campaign-summary-section">
-        <div>Total Raised: <span ng-if="contribs.length == 1000">&gt;</span>{{summaryData.totalRaised | currency}}</div>
+        <div>Total Raised: {{summaryData.contribs | totalRaised | currency}}</div>
         <!-- <div>Total Raised from DC: {{summaryData.totalRaisedFromDc | currency}}</div> -->
-        <div>Raised from DC: {{((summaryData.totalRaisedFromDc / summaryData.totalRaised)*100).toFixed(2)}}%</div>
+        <div>Raised from DC: {{summaryData.contribs | dcContributions | totalRaised | currency}} ({{(((summaryData.contribs | dcContributions | totalRaised) / (summaryData.contribs | totalRaised))*100).toFixed(1)}}% of total)</div>
+        <div>Contributions from Candidate: {{summaryData.candidateContribs | totalRaised | currency}}</div>
+        <div>Max Contributors (${{race.contributionLimit}}): {{summaryData.maxDonors.length}}
+          ({{((summaryData.maxDonors.length / summaryData.contributors.length)*100).toFixed(1)}}%)</div>
       </div>
 
       <div class="campaign-summary-section">
-        <div>Average Contribution: {{(summaryData.totalRaised / summaryData.contribsCount) | currency}}</div>
-        <div>% Small Contributions (&lt;$100): {{((summaryData.smallContribs / summaryData.contribsCount)*100).toFixed(2)}}%</div>
-        <div>% Contributions at Max Allowed (${{race.contributionLimit}}): {{((summaryData.contribsAtMax / summaryData.contribsCount)*100).toFixed(2)}}%</div>
+        <div>Average Contribution: {{(summaryData.contribs | totalRaised) / (summaryData.contribs.length) | currency}}</div>
+        <div>% Small Donors (&lt;$100):
+          {{((summaryData.smallContribs.length / summaryData.contribs.length)*100).toFixed(1)}}%</div>
       </div>
     </div> <!-- campaign-detail -->
   </md-card-content>
-    <!-- TODO: convert to grid cards and add "campaign-detail" directive -->
+  <!-- TODO: convert to grid cards and add "campaign-detail" directive -->
 
 </md-card>

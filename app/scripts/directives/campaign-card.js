@@ -12,8 +12,5 @@ angular.module('app')
       templateUrl: 'views/components/campaign-card.html',
       restrict: 'E',
       transclude: true
-      // link: function postLink(scope, element, attrs) {
-      //   element.text('this is the campaignCard directive');
-      // }
     };
   });

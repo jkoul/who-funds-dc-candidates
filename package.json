@@ -2,6 +2,7 @@
   "name": "whofundsdc",
   "private": true,
   "devDependencies": {
+    "angular-filter": "^0.5.17",
     "autoprefixer-core": "^5.2.1",
     "connect-modrewrite": "^0.10.2",
     "grunt": "^0.4.5",

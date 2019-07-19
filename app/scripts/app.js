@@ -16,7 +16,8 @@ angular.module('app', [
     'ngMessages',
     'ngResource',
     'ngSanitize',
-    'ui.router'
+    'ui.router',
+    'angular.filter'
   ])
 
   .constant('assetPath', '.')
