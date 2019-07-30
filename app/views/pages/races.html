@@ -33,7 +33,7 @@
     <div class="race" ng-repeat="race in racesCtrl.filterRaces|orderBy:'raceId'">
       <h3 class="race-headline">{{race.raceTypeDetail}} - {{race.electionYear}}</h3>
       <!-- set up grid for campaign cards -->
-      <md-content class="race-candidates-list" layout-xs="column" layout="row" layout-wrap>
+      <md-content class="race-candidates-list" layout-xs="column" layout="row" layout-align="start stretch" layout-wrap>
           <!-- <div ng-repeat="campaign in campaigns | filter:{raceId:race.raceId}"> -->
             <!-- <div>{{campaign.candidateName}}</div> -->
         <campaign-card flex-xs flex-gt-xs="50" flex-gt-sm="33" flex-gt-md="25" ng-repeat="campaign in main.campaigns | filter:{raceId:race.raceId}" />
