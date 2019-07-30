@@ -9,7 +9,6 @@
  */
 angular.module('app')
   .controller('RacesCtrl', function ($scope, $filter) {
-    $scope.campaigns = $filter('candidateName')($scope.main.campaigns, $scope.main.candidates);
 
     $scope.showRaces = false;
     $scope.racesCtrl = {

@@ -16,12 +16,12 @@
         <div>Total Contributions: {{summaryData.contribs.length}}</div>
         <div>Total from DC: {{(summaryData.contribs | dcContributions).length}} ({{(((summaryData.contribs | dcContributions).length / summaryData.contribs.length)*100).toFixed(1)}}% of total)</div>
         <div>Unique Contributors: {{summaryData.contributors.length}}</div>
-        <div>Unique Contributors from DC: {{(summaryData.contributors | filter:{dcResident:true}).length}} ({{(((summaryData.contributors | filter:{dcResident:true}).length / summaryData.contributors.length)*100).toFixed(1)}}% of total)</div>
+        <div>Unique Contributors from DC: {{(summaryData.contributors | filter:{dcResident:true}).length}} ({{(((summaryData.contributors | filter:{dcResident:true}).length / summaryData.contributors.length)*100).toFixed(1)}}%)</div>
       </div>
       <div class="campaign-summary-section">
         <div>Total Raised: {{summaryData.contribs | totalRaised | currency}}</div>
         <!-- <div>Total Raised from DC: {{summaryData.totalRaisedFromDc | currency}}</div> -->
-        <div>Raised from DC: {{summaryData.contribs | dcContributions | totalRaised | currency}} ({{(((summaryData.contribs | dcContributions | totalRaised) / (summaryData.contribs | totalRaised))*100).toFixed(1)}}% of total)</div>
+        <div>Raised from DC: {{summaryData.contribs | dcContributions | totalRaised | currency}} ({{(((summaryData.contribs | dcContributions | totalRaised) / (summaryData.contribs | totalRaised))*100).toFixed(1)}}%)</div>
         <div>Contributions from Candidate: {{summaryData.candidateContribs | totalRaised | currency}}</div>
         <div>Max Contributors (${{race.contributionLimit}}): {{summaryData.maxDonors.length}}
           ({{((summaryData.maxDonors.length / summaryData.contributors.length)*100).toFixed(1)}}%)</div>

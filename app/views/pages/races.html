@@ -36,7 +36,7 @@
       <md-content class="race-candidates-list" layout-xs="column" layout="row" layout-wrap>
           <!-- <div ng-repeat="campaign in campaigns | filter:{raceId:race.raceId}"> -->
             <!-- <div>{{campaign.candidateName}}</div> -->
-        <campaign-card flex-xs flex-gt-xs="50" flex-gt-sm="33" flex-gt-md="25" ng-repeat="campaign in campaigns | filter:{raceId:race.raceId}" />
+        <campaign-card flex-xs flex-gt-xs="50" flex-gt-sm="33" flex-gt-md="25" ng-repeat="campaign in main.campaigns | filter:{raceId:race.raceId}" />
           <!-- </div> -->
       </md-content>
     </div>
