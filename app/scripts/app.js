@@ -9,6 +9,7 @@
  * Main module of the application.
  */
 angular.module('app', [
+    'ngMaterial',
     'ngAnimate',
     'ngAria',
     'ngCookies',
@@ -16,15 +17,15 @@ angular.module('app', [
     'ngResource',
     'ngSanitize',
     'ui.router',
-    'ngMaterial'
+    'angular.filter'
   ])
 
   .constant('assetPath', '.')
 
   // disable Material theming for now
-  .config(function($mdThemingProvider) {
-    $mdThemingProvider.disableTheming();
-  })
+  // .config(function($mdThemingProvider) {
+  //   $mdThemingProvider.disableTheming();
+  // })
 
   .config(['$locationProvider', function($locationProvider) {
     $locationProvider.html5Mode(true);

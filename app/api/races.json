@@ -1,1347 +1,983 @@
 [
   {
-    "id": 1,
     "raceId": "02A",
+    "raceType": "Mayor",
     "raceTypeDetail": "Mayor",
     "electionYear": 2002,
-    "officeTypeId": 1,
     "contributionLimit": 2000,
-    "winners": [
-      18
-    ]
+    "winner": "Anthony Williams"
   },
   {
-    "id": 2,
     "raceId": "02B",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Chair",
     "electionYear": 2002,
-    "officeTypeId": 3,
     "contributionLimit": 1500,
-    "winners": [
-      205
-    ]
+    "winner": "Linda Cropp"
   },
   {
-    "id": 3,
     "raceId": "02C",
+    "raceType": "Council",
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2002,
-    "officeTypeId": 3,
     "contributionLimit": 1000,
-    "winners": [
-      79,
-      271
-    ]
+    "winner": "David Catania",
+    "winner2": "Phil Mendelson"
   },
   {
-    "id": 4,
     "raceId": "02D",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 1",
     "electionYear": 2002,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      154
-    ]
+    "winner": "Jim Graham"
   },
   {
-    "id": 5,
     "raceId": "02E",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 3",
     "electionYear": 2002,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      177
-    ]
+    "winner": "Kathy Patterson"
   },
   {
-    "id": 6,
     "raceId": "02F",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 5",
     "electionYear": 2002,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      345
-    ]
+    "winner": "Vincent Orange"
   },
   {
-    "id": 7,
     "raceId": "02G",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 6",
     "electionYear": 2002,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      309
-    ]
+    "winner": "Sharon Ambrose"
   },
   {
-    "id": 8,
     "raceId": "02H",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Senator",
     "electionYear": 2002,
-    "officeTypeId": 4,
-    "winners": [
-      264
-    ]
+    "winner": "Paul Strauss"
   },
   {
-    "id": 9,
     "raceId": "02I",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Representative",
     "electionYear": 2002,
-    "officeTypeId": 4,
-    "winners": [
-      279
-    ]
+    "winner": "Ray Browne"
   },
   {
-    "id": 10,
     "raceId": "02J",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - President",
     "electionYear": 2002,
-    "officeTypeId": 5,
-    "winners": [
-      358
-    ]
+    "winner": "Peggy Cooper Cafritz"
   },
   {
-    "id": 11,
     "raceId": "02K",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - District III",
     "electionYear": 2002,
-    "officeTypeId": 5,
-    "winners": [
-      331
-    ]
+    "winner": "Tommy Wells"
   },
   {
-    "id": 12,
     "raceId": "02L",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - District IV",
     "electionYear": 2002,
-    "officeTypeId": 5,
-    "winners": [
-      353
-    ]
+    "winner": "William Lockridge"
   },
   {
-    "id": 13,
     "raceId": "04A",
+    "raceType": "Council",
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2004,
-    "officeTypeId": 3,
     "contributionLimit": 1000,
-    "winners": [
-      45,
-      191
-    ]
+    "winner": "Carol Schwartz",
+    "winner2": "Kwame R. Brown"
   },
   {
-    "id": 14,
     "raceId": "04B",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 2",
     "electionYear": 2004,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      135
-    ]
+    "winner": "Jack Evans"
   },
   {
-    "id": 15,
     "raceId": "04C",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 4",
     "electionYear": 2004,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      6
-    ]
+    "winner": "Adrian Fenty"
   },
   {
-    "id": 16,
     "raceId": "04D",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 7",
     "electionYear": 2004,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      344
-    ]
+    "winner": "Vincent Gray"
   },
   {
-    "id": 17,
     "raceId": "04E",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 8",
     "electionYear": 2004,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      223
-    ]
+    "winner": "Marion Barry"
   },
   {
-    "id": 18,
     "raceId": "04F",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Representative",
     "electionYear": 2004,
-    "officeTypeId": 4,
-    "winners": [
-      279
-    ]
+    "winner": "Ray Browne"
   },
   {
-    "id": 19,
     "raceId": "04G",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - District I",
     "electionYear": 2004,
-    "officeTypeId": 5,
-    "winners": [
-      148
-    ]
+    "winner": "Jeff Smith"
   },
   {
-    "id": 20,
     "raceId": "04H",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - District II",
     "electionYear": 2004,
-    "officeTypeId": 5,
-    "winners": [
-      340
-    ]
+    "winner": "Victor Reinoso"
   },
   {
-    "id": 21,
     "raceId": "04I",
+    "raceType": "Partisan Positions",
     "raceTypeDetail": "Partisan Positions & Convention Delegates - General",
-    "electionYear": 2004,
-    "officeTypeId": 6,
-    "winners": []
+    "electionYear": 2004
   },
   {
-    "id": 22,
     "raceId": "06A",
+    "raceType": "Mayor",
     "raceTypeDetail": "Mayor",
     "electionYear": 2006,
-    "officeTypeId": 1,
     "contributionLimit": 2000,
-    "winners": [
-      6
-    ]
+    "winner": "Adrian Fenty"
   },
   {
-    "id": 23,
     "raceId": "06B",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Chair",
     "electionYear": 2006,
-    "officeTypeId": 3,
     "contributionLimit": 1500,
-    "winners": [
-      344
-    ]
+    "winner": "Vincent Gray"
   },
   {
-    "id": 24,
     "raceId": "06C",
+    "raceType": "Council",
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2006,
-    "officeTypeId": 3,
     "contributionLimit": 1000,
-    "winners": [
-      79,
-      271
-    ]
+    "winner": "David Catania",
+    "winner2": "Phil Mendelson"
   },
   {
-    "id": 25,
     "raceId": "06D",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 1",
     "electionYear": 2006,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      154
-    ]
+    "winner": "Jim Graham"
   },
   {
-    "id": 26,
     "raceId": "06E",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 3",
     "electionYear": 2006,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      234
-    ]
+    "winner": "Mary Cheh"
   },
   {
-    "id": 27,
     "raceId": "06F",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 5",
     "electionYear": 2006,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      130
-    ]
+    "winner": "Harry Thomas, Jr."
   },
   {
-    "id": 28,
     "raceId": "06G",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 6",
     "electionYear": 2006,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      331
-    ]
+    "winner": "Tommy Wells"
   },
   {
-    "id": 29,
     "raceId": "06H",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Senator",
     "electionYear": 2006,
-    "officeTypeId": 4,
-    "winners": [
-      245
-    ]
+    "winner": "Michael D. Brown"
   },
   {
-    "id": 30,
     "raceId": "06I",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Representative",
     "electionYear": 2006,
-    "officeTypeId": 4,
-    "winners": [
-      248
-    ]
+    "winner": "Mike Panetta"
   },
   {
-    "id": 31,
     "raceId": "06J",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - President",
     "electionYear": 2006,
-    "officeTypeId": 5,
-    "winners": [
-      285
-    ]
+    "winner": "Robert Bobb"
   },
   {
-    "id": 32,
     "raceId": "06K",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - District III",
     "electionYear": 2006,
-    "officeTypeId": 5,
-    "winners": [
-      209
-    ]
+    "winner": "Lisa Raymond"
   },
   {
-    "id": 33,
     "raceId": "06L",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - District IV",
     "electionYear": 2006,
-    "officeTypeId": 5,
-    "winners": [
-      353
-    ]
+    "winner": "William Lockridge"
   },
   {
-    "id": 34,
     "raceId": "07A",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 4 (Special)",
     "electionYear": 2007,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      253
-    ]
+    "winner": "Muriel Bowser"
   },
   {
-    "id": 35,
     "raceId": "07B",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 7 (Special)",
     "electionYear": 2007,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      357
-    ]
+    "winner": "Yvette Alexander"
   },
   {
-    "id": 36,
     "raceId": "07C",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - District II (Special)",
     "electionYear": 2007,
-    "officeTypeId": 5,
-    "winners": [
-      306
-    ]
+    "winner": "Sekou Biddle"
   },
   {
-    "id": 37,
     "raceId": "08A",
+    "raceType": "Council",
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2008,
-    "officeTypeId": 3,
     "contributionLimit": 1000,
-    "winners": [
-      191,
-      242
-    ]
+    "winner": "Kwame R. Brown",
+    "winner2": "Michael A. Brown"
   },
   {
-    "id": 38,
     "raceId": "08B",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 2",
     "electionYear": 2008,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      135
-    ]
+    "winner": "Jack Evans"
   },
   {
-    "id": 39,
     "raceId": "08C",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 4",
     "electionYear": 2008,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      253
-    ]
+    "winner": "Muriel Bowser"
   },
   {
-    "id": 40,
     "raceId": "08D",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 7",
     "electionYear": 2008,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      357
-    ]
+    "winner": "Yvette Alexander"
   },
   {
-    "id": 41,
     "raceId": "08E",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 8",
     "electionYear": 2008,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      223
-    ]
+    "winner": "Marion Barry"
   },
   {
-    "id": 42,
     "raceId": "08F",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Senator",
     "electionYear": 2008,
-    "officeTypeId": 4,
-    "winners": [
-      264
-    ]
+    "winner": "Paul Strauss"
   },
   {
-    "id": 43,
     "raceId": "08H",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - At-Large",
     "electionYear": 2008,
-    "officeTypeId": 5,
     "contributionLimit": 500,
-    "winners": [
-      321
-    ]
+    "winner": "Ted Trabue"
   },
   {
-    "id": 44,
     "raceId": "08I",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 1",
     "electionYear": 2008,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      94
-    ]
+    "winner": "Dotti Love Wade"
   },
   {
-    "id": 45,
     "raceId": "08J",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 2",
     "electionYear": 2008,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      236
-    ]
+    "winner": "Mary Lord"
   },
   {
-    "id": 46,
     "raceId": "08K",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 3",
     "electionYear": 2008,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      196
-    ]
+    "winner": "Laura McGiffert Slover"
   },
   {
-    "id": 47,
     "raceId": "08L",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 4",
     "electionYear": 2008,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      306
-    ]
+    "winner": "Sekou Biddle"
   },
   {
-    "id": 48,
     "raceId": "08M",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 5",
     "electionYear": 2008,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      225
-    ]
+    "winner": "Mark Jones"
   },
   {
-    "id": 49,
     "raceId": "08N",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 6",
     "electionYear": 2008,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      209
-    ]
+    "winner": "Lisa Raymond"
   },
   {
-    "id": 50,
     "raceId": "08O",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 7",
     "electionYear": 2008,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      93
-    ]
+    "winner": "Dorothy Douglas"
   },
   {
-    "id": 51,
     "raceId": "08P",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 8",
     "electionYear": 2008,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      353
-    ]
+    "winner": "William Lockridge"
   },
   {
-    "id": 52,
     "raceId": "08Q",
+    "raceType": "Partisan Positions",
     "raceTypeDetail": "Partisan Positions & Convention Delegates - General",
-    "electionYear": 2008,
-    "officeTypeId": 6,
-    "winners": []
+    "electionYear": 2008
   },
   {
-    "id": 53,
     "raceId": "10A",
+    "raceType": "Mayor",
     "raceTypeDetail": "Mayor",
     "electionYear": 2010,
-    "officeTypeId": 1,
-    "winners": [
-      344
-    ]
+    "winner": "Vincent Gray"
   },
   {
-    "id": 54,
     "raceId": "10B",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Chair",
     "electionYear": 2010,
-    "officeTypeId": 3,
     "contributionLimit": 1500,
-    "winners": [
-      191
-    ]
+    "winner": "Kwame R. Brown"
   },
   {
-    "id": 55,
     "raceId": "10C",
+    "raceType": "Council",
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2010,
-    "officeTypeId": 3,
     "contributionLimit": 1000,
-    "winners": [
-      79,
-      271
-    ]
+    "winner": "David Catania",
+    "winner2": "Phil Mendelson"
   },
   {
-    "id": 56,
     "raceId": "10D",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 1",
     "electionYear": 2010,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      154
-    ]
+    "winner": "Jim Graham"
   },
   {
-    "id": 57,
     "raceId": "10E",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 3",
     "electionYear": 2010,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      234
-    ]
+    "winner": "Mary Cheh"
   },
   {
-    "id": 58,
     "raceId": "10F",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 5",
     "electionYear": 2010,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      130
-    ]
+    "winner": "Harry Thomas, Jr."
   },
   {
-    "id": 59,
     "raceId": "10G",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 6",
     "electionYear": 2010,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      331
-    ]
+    "winner": "Tommy Wells"
   },
   {
-    "id": 60,
     "raceId": "10H",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Representative",
     "electionYear": 2010,
-    "officeTypeId": 4,
-    "winners": [
-      248
-    ]
+    "winner": "Mike Panetta"
   },
   {
-    "id": 61,
     "raceId": "10I",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 1",
     "electionYear": 2010,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      261
-    ]
+    "winner": "Patrick Mara"
   },
   {
-    "id": 62,
     "raceId": "10J",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 3",
     "electionYear": 2010,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      196
-    ]
+    "winner": "Laura McGiffert Slover"
   },
   {
-    "id": 63,
     "raceId": "10K",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 5",
     "electionYear": 2010,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      225
-    ]
+    "winner": "Mark Jones"
   },
   {
-    "id": 64,
     "raceId": "10L",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 6",
     "electionYear": 2010,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      252
-    ]
+    "winner": "Monica Warren-Jones"
   },
   {
-    "id": 65,
     "raceId": "11A",
+    "raceType": "Council",
     "raceTypeDetail": "Council - At-Large (Special)",
     "electionYear": 2011,
-    "officeTypeId": 3,
     "contributionLimit": 1000,
-    "winners": [
-      345
-    ]
+    "winner": "Vincent Orange"
   },
   {
-    "id": 66,
     "raceId": "11B",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 4 (Special)",
     "electionYear": 2011,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      68
-    ]
+    "winner": "D. Kamili Anderson"
   },
   {
-    "id": 67,
     "raceId": "11C",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 8 (Special)",
     "electionYear": 2011,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      336
-    ]
+    "winner": "Trayon White"
   },
   {
-    "id": 68,
     "raceId": "12A",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 5 (Special)",
     "electionYear": 2012,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      183
-    ]
+    "winner": "Kenyan McDuffie"
   },
   {
-    "id": 69,
     "raceId": "12B",
+    "raceType": "Council",
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2012,
-    "officeTypeId": 3,
     "contributionLimit": 1000,
-    "winners": [
-      82,
-      345
-    ]
+    "winner": "David Grosso",
+    "winner2": "Vincent Orange"
   },
   {
-    "id": 70,
     "raceId": "12C",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 2",
     "electionYear": 2012,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      135
-    ]
+    "winner": "Jack Evans"
   },
   {
-    "id": 71,
     "raceId": "12D",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 4",
     "electionYear": 2012,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      253
-    ]
+    "winner": "Muriel Bowser"
   },
   {
-    "id": 72,
     "raceId": "12E",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 7",
     "electionYear": 2012,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      357
-    ]
+    "winner": "Yvette Alexander"
   },
   {
-    "id": 73,
     "raceId": "12F",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 8",
     "electionYear": 2012,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      223
-    ]
+    "winner": "Marion Barry"
   },
   {
-    "id": 74,
     "raceId": "12G",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Chair (Special)",
     "electionYear": 2012,
-    "officeTypeId": 3,
     "contributionLimit": 1500,
-    "winners": [
-      271
-    ]
+    "winner": "Phil Mendelson"
   },
   {
-    "id": 75,
     "raceId": "12H",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Senator",
     "electionYear": 2012,
-    "officeTypeId": 4,
-    "winners": [
-      245
-    ]
+    "winner": "Michael D. Brown"
   },
   {
-    "id": 76,
     "raceId": "12I",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Representative",
     "electionYear": 2012,
-    "officeTypeId": 4,
-    "winners": [
-      256
-    ]
+    "winner": "Nate Bennett-Fleming"
   },
   {
-    "id": 77,
     "raceId": "12J",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - At-Large",
     "electionYear": 2012,
-    "officeTypeId": 5,
     "contributionLimit": 500,
-    "winners": [
-      236
-    ]
+    "winner": "Mary Lord"
   },
   {
-    "id": 78,
     "raceId": "12K",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 2",
     "electionYear": 2012,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      136
-    ]
+    "winner": "Jack Jacobson"
   },
   {
-    "id": 79,
     "raceId": "12L",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 4",
     "electionYear": 2012,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      68
-    ]
+    "winner": "D. Kamili Anderson"
   },
   {
-    "id": 80,
     "raceId": "12M",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 7",
     "electionYear": 2012,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      174
-    ]
+    "winner": "Karen Williams"
   },
   {
-    "id": 81,
     "raceId": "12N",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 8",
     "electionYear": 2012,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      336
-    ]
+    "winner": "Trayon White"
   },
   {
-    "id": 82,
     "raceId": "12O",
+    "raceType": "Partisan Positions",
     "raceTypeDetail": "Partisan Positions & Convention Delegates - General",
-    "electionYear": 2012,
-    "officeTypeId": 6,
-    "winners": []
+    "electionYear": 2012
   },
   {
-    "id": 83,
     "raceId": "13A",
+    "raceType": "Council",
     "raceTypeDetail": "Council - At-Large (Special)",
     "electionYear": 2013,
-    "officeTypeId": 3,
     "contributionLimit": 1000,
-    "winners": [
-      14
-    ]
+    "winner": "Anita Bonds"
   },
   {
-    "id": 84,
     "raceId": "14A",
+    "raceType": "Mayor",
     "raceTypeDetail": "Mayor",
     "electionYear": 2014,
-    "officeTypeId": 1,
     "contributionLimit": 2000,
-    "winners": [
-      253
-    ]
+    "winner": "Muriel Bowser"
   },
   {
-    "id": 85,
     "raceId": "14B",
+    "raceType": "Attorney General",
     "raceTypeDetail": "Attorney General",
     "electionYear": 2014,
-    "officeTypeId": 2,
     "contributionLimit": 1500,
-    "winners": [
-      175
-    ]
+    "winner": "Karl Racine"
   },
   {
-    "id": 86,
     "raceId": "14C",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Chair",
     "electionYear": 2014,
-    "officeTypeId": 3,
     "contributionLimit": 1500,
-    "winners": [
-      271
-    ]
+    "winner": "Phil Mendelson"
   },
   {
-    "id": 87,
     "raceId": "14D",
+    "raceType": "Council",
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2014,
-    "officeTypeId": 3,
     "contributionLimit": 1000,
-    "winners": [
-      14,
-      108
-    ]
+    "winner": "Anita Bonds",
+    "winner2": "Elissa Silverman"
   },
   {
-    "id": 88,
     "raceId": "14E",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 1",
     "electionYear": 2014,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      37
-    ]
+    "winner": "Brianne Nadeau"
   },
   {
-    "id": 89,
     "raceId": "14F",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 3",
     "electionYear": 2014,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      234
-    ]
+    "winner": "Mary Cheh"
   },
   {
-    "id": 90,
     "raceId": "14G",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 5",
     "electionYear": 2014,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      183
-    ]
+    "winner": "Kenyan McDuffie"
   },
   {
-    "id": 91,
     "raceId": "14H",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 6",
     "electionYear": 2014,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      55
-    ]
+    "winner": "Charles Allen"
   },
   {
-    "id": 92,
     "raceId": "14I",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Senator",
     "electionYear": 2014,
-    "officeTypeId": 4,
-    "winners": [
-      264
-    ]
+    "winner": "Paul Strauss"
   },
   {
-    "id": 93,
     "raceId": "14J",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Representative",
     "electionYear": 2014,
-    "officeTypeId": 4,
-    "winners": [
-      118
-    ]
+    "winner": "Franklin Garcia"
   },
   {
-    "id": 94,
     "raceId": "14K",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 8 (Special)",
     "electionYear": 2014,
-    "officeTypeId": 5,
-    "winners": [
-      325
-    ]
+    "winner": "Tierra Jolly"
   },
   {
-    "id": 95,
     "raceId": "14L",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 1",
     "electionYear": 2014,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      197
-    ]
+    "winner": "Laura Wilson Phelan"
   },
   {
-    "id": 96,
     "raceId": "14M",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 3",
     "electionYear": 2014,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      298
-    ]
+    "winner": "Ruth Wattenberg"
   },
   {
-    "id": 97,
     "raceId": "14N",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 5",
     "electionYear": 2014,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      225
-    ]
+    "winner": "Mark Jones"
   },
   {
-    "id": 98,
     "raceId": "14O",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 6",
     "electionYear": 2014,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      158
-    ]
+    "winner": "Joe Weedon"
   },
   {
-    "id": 99,
     "raceId": "14P",
+    "raceType": "Partisan Positions",
     "raceTypeDetail": "Partisan Positions & Convention Delegates - General",
-    "electionYear": 2014,
-    "officeTypeId": 6,
-    "winners": []
+    "electionYear": 2014
   },
   {
-    "id": 100,
     "raceId": "15A",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 4 (Special)",
     "electionYear": 2015,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      35
-    ]
+    "winner": "Brandon Todd"
   },
   {
-    "id": 101,
     "raceId": "15B",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 8 (Special)",
     "electionYear": 2015,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      194
-    ]
+    "winner": "LaRuby May"
   },
   {
-    "id": 102,
     "raceId": "16A",
+    "raceType": "Council",
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2016,
-    "officeTypeId": 3,
     "contributionLimit": 1000,
-    "winners": [
-      82,
-      290
-    ]
+    "winner": "David Grosso",
+    "winner2": "Robert White"
   },
   {
-    "id": 103,
     "raceId": "16B",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 2",
     "electionYear": 2016,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      135
-    ]
+    "winner": "Jack Evans"
   },
   {
-    "id": 104,
     "raceId": "16C",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 4",
     "electionYear": 2016,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      35
-    ]
+    "winner": "Brandon Todd"
   },
   {
-    "id": 105,
     "raceId": "16D",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 7",
     "electionYear": 2016,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      344
-    ]
+    "winner": "Vincent Gray"
   },
   {
-    "id": 106,
     "raceId": "16E",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 8",
     "electionYear": 2016,
-    "officeTypeId": 3,
     "contributionLimit": 500,
-    "winners": [
-      336
-    ]
+    "winner": "Trayon White"
   },
   {
-    "id": 107,
     "raceId": "16F",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Representative",
     "electionYear": 2016,
-    "officeTypeId": 4,
-    "winners": [
-      118
-    ]
+    "winner": "Franklin Garcia"
   },
   {
-    "id": 108,
     "raceId": "16G",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - At-Large",
     "electionYear": 2016,
-    "officeTypeId": 5,
     "contributionLimit": 500,
-    "winners": [
-      25
-    ]
+    "winner": "Ashley Carter"
   },
   {
-    "id": 109,
     "raceId": "16H",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 2",
     "electionYear": 2016,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      136
-    ]
+    "winner": "Jack Jacobson"
   },
   {
-    "id": 110,
     "raceId": "16I",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 4",
     "electionYear": 2016,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      192
-    ]
+    "winner": "Lannette Woodruff"
   },
   {
-    "id": 111,
     "raceId": "16J",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 7",
     "electionYear": 2016,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      174
-    ]
+    "winner": "Karen Williams"
   },
   {
-    "id": 112,
     "raceId": "16K",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 8",
     "electionYear": 2016,
-    "officeTypeId": 5,
     "contributionLimit": 200,
-    "winners": [
-      228
-    ]
+    "winner": "Markus Batchelor"
   },
   {
-    "id": 113,
     "raceId": "16L",
+    "raceType": "Partisan Positions",
     "raceTypeDetail": "Partisan Positions & Convention Delegates - General",
-    "electionYear": 2016,
-    "officeTypeId": 6,
-    "winners": []
+    "electionYear": 2016
   },
   {
-    "id": 114,
     "raceId": "18A",
+    "raceType": "Mayor",
     "raceTypeDetail": "Mayor",
     "electionYear": 2018,
-    "officeTypeId": 1,
-    "contributionLimit": 2000,
-    "winners": []
+    "contributionLimit": 2000
   },
   {
-    "id": 115,
     "raceId": "18B",
+    "raceType": "Attorney General",
     "raceTypeDetail": "Attorney General",
     "electionYear": 2018,
-    "officeTypeId": 2,
-    "contributionLimit": 1500,
-    "winners": []
+    "contributionLimit": 1500
   },
   {
-    "id": 116,
     "raceId": "18C",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Chair",
     "electionYear": 2018,
-    "officeTypeId": 3,
-    "contributionLimit": 1500,
-    "winners": []
+    "contributionLimit": 1500
   },
   {
-    "id": 117,
     "raceId": "18D",
+    "raceType": "Council",
     "raceTypeDetail": "Council - At-Large",
     "electionYear": 2018,
-    "officeTypeId": 3,
-    "contributionLimit": 1000,
-    "winners": []
+    "contributionLimit": 1000
   },
   {
-    "id": 118,
     "raceId": "18E",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 1",
     "electionYear": 2018,
-    "officeTypeId": 3,
-    "contributionLimit": 500,
-    "winners": []
+    "contributionLimit": 500
   },
   {
-    "id": 119,
     "raceId": "18F",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 3",
     "electionYear": 2018,
-    "officeTypeId": 3,
-    "contributionLimit": 500,
-    "winners": []
+    "contributionLimit": 500
   },
   {
-    "id": 120,
     "raceId": "18G",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 5",
     "electionYear": 2018,
-    "officeTypeId": 3,
-    "contributionLimit": 500,
-    "winners": []
+    "contributionLimit": 500
   },
   {
-    "id": 121,
     "raceId": "18H",
+    "raceType": "Council",
     "raceTypeDetail": "Council - Ward 6",
     "electionYear": 2018,
-    "officeTypeId": 3,
-    "contributionLimit": 500,
-    "winners": []
+    "contributionLimit": 500
   },
   {
-    "id": 122,
     "raceId": "18I",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Senator",
-    "electionYear": 2018,
-    "officeTypeId": 4,
-    "winners": []
+    "electionYear": 2018
   },
   {
-    "id": 123,
     "raceId": "18J",
+    "raceType": "Statehood Delegation",
     "raceTypeDetail": "Shadow U.S. Representative",
-    "electionYear": 2018,
-    "officeTypeId": 4,
-    "winners": []
+    "electionYear": 2018
   },
   {
-    "id": 124,
     "raceId": "18K",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 1",
     "electionYear": 2018,
-    "officeTypeId": 5,
-    "contributionLimit": 200,
-    "winners": []
+    "contributionLimit": 200
   },
   {
-    "id": 125,
     "raceId": "18L",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 3",
     "electionYear": 2018,
-    "officeTypeId": 5,
-    "contributionLimit": 200,
-    "winners": []
+    "contributionLimit": 200
   },
   {
-    "id": 126,
     "raceId": "18M",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 5",
     "electionYear": 2018,
-    "officeTypeId": 5,
-    "contributionLimit": 200,
-    "winners": []
+    "contributionLimit": 200
   },
   {
-    "id": 127,
     "raceId": "18N",
+    "raceType": "School Board",
     "raceTypeDetail": "School Board - Ward 6",
     "electionYear": 2018,
-    "officeTypeId": 5,
-    "contributionLimit": 200,
-    "winners": []
+    "contributionLimit": 200
   },
   {
-    "id": 128,
     "raceId": "18O",
+    "raceType": "Partisan Positions",
     "raceTypeDetail": "Partisan Positions & Convention Delegates - General",
-    "electionYear": 2018,
-    "officeTypeId": 6,
-    "winners": []
+    "electionYear": 2018
   }
 ]

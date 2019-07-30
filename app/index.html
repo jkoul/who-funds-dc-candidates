@@ -15,6 +15,7 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.min.css">
   </head>
   <body ng-app="app" id="whofundsdc">
     <!--[if lte IE 8]>
@@ -46,6 +47,7 @@
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <!-- endbower -->
     <script src="node_modules/angular-material/angular-material.min.js"></script>
+    <script src="node_modules/angular-filter/dist/angular-filter.min.js"></script>
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
@@ -57,12 +59,16 @@
         <script src="scripts/controllers/campaigns.js"></script>
         <script src="scripts/services/race.js"></script>
         <script src="scripts/services/campaign.js"></script>
-        <script src="scripts/services/candidate.js"></script>
         <script src="scripts/services/contribution.js"></script>
         <script src="scripts/filters/candidate-name.js"></script>
+        <script src="scripts/filters/election-years.js"></script>
+        <script src="scripts/directives/active-races.js"></script>
         <script src="scripts/directives/campaign-detail.js"></script>
         <script src="scripts/filters/new-contributions.js"></script>
+        <script src="scripts/filters/dc-contributions.js"></script>
+        <script src="scripts/filters/total-raised.js"></script>
         <script src="scripts/directives/campaign-card.js"></script>
+        <script src="scripts/filters/duplicate-campaigns.js"></script>
         <!-- endbuild -->
 </body>
 </html>

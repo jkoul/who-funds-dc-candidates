@@ -27,7 +27,7 @@ angular.module('app')
       get: function(params) {
         // var count = 0;
         // var stepMax = 200;
-        // var maxResults = 1000;
+        var maxResults = 1000;
         // var results = [];
 
         // $http.get(baseUrl + '?returnGeometry=false&returnIdsOnly=true&f=json&where=' + stringifyParams(params))
@@ -52,35 +52,81 @@ angular.module('app')
         //   $http.get(baseUrl + '?objectIds=' + ids + '&outFields=*&f=json').then(success, fail);
         // };
 
-        // var queryStandard = function(){
+        var queryStandard = function(params){
           return $http.get(baseUrl + '?where=' + stringifyParams(params) + '&outFields=*&f=json')
-          .then(function(res){
-            var results=[];
-            angular.forEach(res.data.features, function(contrib){
-              var contribData = {
-                address: contrib.attributes.ADDRESS,
-                addressId: contrib.attributes.ADDRESS_ID,
-                amount: contrib.attributes.AMOUNT,
-                candidateName: contrib.attributes.CANDIDATENAME,
-                committeeName: contrib.attributes.COMMITTEENAME,
-                contributionType: contrib.attributes.CONTRIBUTIONTYPE,
-                contributorName: contrib.attributes.CONTRIBUTORNAME,
-                contributorType: contrib.attributes.CONTRIBUTORTYPE,
-                dateReceived: $filter('date')(contrib.attributes.DATEOFRECEIPT, 'MM/dd/yyyy'),
-                electionYear: contrib.attributes.ELECTIONYEAR,
-                employer: contrib.attributes.EMPLOYER,
-                employerAddress: contrib.attributes.EMPLOYERADDRESS,
-                normalizedAddress: contrib.attributes.FULLADDRESS,
-                lat: contrib.attributes.LATITUDE,
-                long: contrib.attributes.LONGITUDE,
-                objectId: contrib.attributes.OBJECTID
-              };
-              results.push(contribData);
-            });
-            return results;
-          }, function(err){
+          .then(success, function(err){
             return $q.reject(err);
           });
+        };
+
+        var queryByIds = function(queryIds) {
+          var deferred = $q.defer();
+          var count = 0;
+          var stepMax = 200;
+          var queries = [];
+          while(count < queryIds.length) {
+            var idsString = queryIds.slice(count, count+stepMax).join(',');
+            queries.push($http.get(baseUrl + '?objectIds=' + idsString + '&outFields=*&f=json'));
+            count += stepMax;
+          }
+
+          $q.all(queries).then(function(res){
+            var results = {data: {features: []}};
+            angular.forEach(res, function(partialQuery){
+              var features = partialQuery.data.features;
+              angular.forEach(features, function(item){
+                results.data.features.push(item);
+              });
+            });
+            deferred.resolve(success(results));
+          });
+
+          return deferred.promise;
+        };
+
+        var success = function(res) {
+          var results=[];
+          angular.forEach(res.data.features, function(contrib){
+            var contribData = {
+              address: contrib.attributes.ADDRESS,
+              addressId: contrib.attributes.ADDRESS_ID,
+              amount: contrib.attributes.AMOUNT,
+              candidateName: contrib.attributes.CANDIDATENAME,
+              committeeName: contrib.attributes.COMMITTEENAME,
+              contributionType: contrib.attributes.CONTRIBUTIONTYPE,
+              contributorName: contrib.attributes.CONTRIBUTORNAME,
+              contributorType: contrib.attributes.CONTRIBUTORTYPE,
+              dateReceived: $filter('date')(contrib.attributes.DATEOFRECEIPT, 'MM/dd/yyyy'),
+              electionYear: contrib.attributes.ELECTIONYEAR,
+              employer: contrib.attributes.EMPLOYER,
+              employerAddress: contrib.attributes.EMPLOYERADDRESS,
+              normalizedAddress: contrib.attributes.FULLADDRESS,
+              lat: contrib.attributes.LATITUDE,
+              long: contrib.attributes.LONGITUDE,
+              objectId: contrib.attributes.OBJECTID,
+              ward: contrib.attributes.WARD
+            };
+            results.push(contribData);
+          });
+          return results;
+        };
+
+        return $http.get(baseUrl + '?returnGeometry=false&returnIdsOnly=true&f=json&where=' + stringifyParams(params))
+        .then(function(response){
+          var objectIds = response.data.objectIds;
+          if(!objectIds) {
+            return;
+          }
+          else if(objectIds && objectIds.length <= maxResults) {
+            // console.log(objectIds);
+            return queryStandard(params);
+          } else {
+            return queryByIds(objectIds);
+          }
+        }, function(err){
+          return $q.reject(err);
+        });
+
 
         // var success = function(res, queryIds) {
         //   console.log(res.data.features);

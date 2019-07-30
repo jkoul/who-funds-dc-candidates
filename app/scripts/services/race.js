@@ -5,7 +5,7 @@ angular.module('app')
   .factory('Race', function($http, assetPath) {
     return {
       get: function(){
-        return $http.get(assetPath + '/api/race.json');
+        return $http.get(assetPath + '/api/races.json');
       }
     };
   });

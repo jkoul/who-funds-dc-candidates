@@ -23,8 +23,8 @@ angular.module('app')
       templateUrl: 'views/main.html',
       controller: 'MainCtrl',
       resolve: {
-        mainData: function(Race, Candidate, Campaign, $q){
-          return $q.all([Race.get(), Candidate.get(), Campaign.get()]);
+        mainData: function(Race, Campaign, $q){
+          return $q.all([Race.get(), Campaign.get()]);
         }
       }
     })
